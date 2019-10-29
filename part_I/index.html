@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Unit 03</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title-h1">Heading: [_JS_] JavaScript решает</h1>
+        <h1 class="title-h2">Author: Alexander Luschenko</h2>
+            <!-- <h2 class="title-h3">Тема III:</h4> -->
+            <section>
+                <div class="sectionHeader">
+                    <h4 class="sectionTitle">Task 01 - add bordered </h4>
+                </div>
+                <p class="description"><b><u>Условие задачи:</u></b>
+                    Добавьте изображениям, по которым кликнул пользователь, класс bordered в оформлении которого
+                    содержиться граница и тень.
+                </p>
+
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-512.png" width="300"
+                    height="300" alt="">
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png" width="300"
+                    height="300" alt="">
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-512.png" width="300"
+                    height="300" alt="">
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/1_avatar-512.png" width="300"
+                    height="300" alt="">
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/3_avatar-512.png" width="300"
+                    height="300" alt="">
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/2_avatar-512.png" width="300"
+                    height="300" alt="">
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/9_avatar-512.png" width="300"
+                    height="300" alt="">
+                <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/5_avatar-512.png" width="300"
+                    height="300" alt="">
+    </div>
+    </section>
+
+
+
+
+
+    <section>
+        <div class="sectionHeader">
+            <h4 class="sectionTitle">Task 02 - mouse coordinate</h4>
+        </div>
+        <p class="description"><b><u>Условие задачи:</u></b>
+            Координаты мыши.
+            Выведите координаты мыши относительно блока в момент движения курсора мыши внутри блока.
+            Координаты выводить под блоком.
+        </p>
+        <div class="Task2">
+        </div>
+        <p>
+            X: <span id="offx">0</span>
+            Y: <span id="offy">0</span>
+        </p>
+    </section>
+
+
+    <section>
+            <div class="sectionHeader">
+                <h4 class="sectionTitle">Task 03 - pop-up window</h4>
+            </div>
+            <p class="description"><b><u>Условие задачи:</u></b>
+                Всплывающее по таймеру окно на Bootstrap 4
+                Создайте окно, которое всплывает через 4 секунды после загрузки страницы. В окне - опция "Согласен".
+                Если пользователь выбирает данную опцию и закрывает окно, то при последующих обновлениях окно не показывается.
+                Если пользователь не выбрал опцию "Согласен", то повторяйте вывод окна после обновления страницы.
+
+                Step I - сделать всплывающее окно.
+                Step II - поместить в него кнопку "Согласен".
+                Step III - сохранять состояние в хранилище (local storage).
+                <hr>
+
+            <button id="myBtn">Open Modal</button>
+            <div id="myModal" class="ariseModal">
+                <div class="ariseModal-content">
+                    <span class="closeAriseModal">&times;</span>
+                    <p>Модальное окно</p>
+                </div>
+            </div>
+        </section>
+
+    <section>
+        <div class="sectionHeader">
+            <h4 class="sectionTitle">Task 04 - progress bar</h4>
+        </div>
+        <p class="description"><b><u>Условие задачи:</u></b>
+            есть progress bar который должен заполнятся за заданное количество времени. Время задает разработчик (не пользователь).
+        </p>
+        <progress id="user-progress" value="0" max="100"></progress>
+        <div class="hidden-block">
+            Hello world!
+        </div>
+
+
+
+    </section>
+
+    <section>
+        <div class="sectionHeader">
+            <h4 class="sectionTitle">Task 05 - btn-start two functions</h4>
+        </div>
+        <p class="description"><b><u>Условие задачи:</u></b>
+            Создайте кнопку которая при нажатии запускает две произвольные функции.
+        </p>
+        <button id="btn-start2f" class="btn-style">start</button>
+        <div class="unit3Task4"></div>
+    </section>
+
+    
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
